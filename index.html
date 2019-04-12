@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_6f14e64b5a284af68a34789666a43de3 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_6f14e64b5a284af68a34789666a43de3" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_6f14e64b5a284af68a34789666a43de3 = L.map(
+        'map_6f14e64b5a284af68a34789666a43de3', {
+        center: [10, -84],
+        zoom: 6,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: false,
+        });
+
+
+    
+    var tile_layer_19c887d62cc34a9e8d980d876909ef2d = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_6f14e64b5a284af68a34789666a43de3);
+    
+        var marker_ada093e7439f4dff984cfd54849819cd = L.marker(
+            [10.463333, -84.703333],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_6f14e64b5a284af68a34789666a43de3);
+        
+    
+            var popup_514a563ed13742018b5ed08d1af7e4c7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_eade2cfef52042d49aecf3d84fb2dc3b = $(`<div id="html_eade2cfef52042d49aecf3d84fb2dc3b" style="width: 100.0%; height: 100.0%;">Volcán Arenal, Costa Rica</div>`)[0];
+                popup_514a563ed13742018b5ed08d1af7e4c7.setContent(html_eade2cfef52042d49aecf3d84fb2dc3b);
+            
+
+            marker_ada093e7439f4dff984cfd54849819cd.bindPopup(popup_514a563ed13742018b5ed08d1af7e4c7)
+            ;
+
+            
+        
+    
+        marker_ada093e7439f4dff984cfd54849819cd.bindTooltip(
+            `<div>`
+            + `Clic para más información` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_a3d76e3d486a4ca5b07e20011325118e = L.marker(
+            [10.135, -84.1],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_6f14e64b5a284af68a34789666a43de3);
+        
+    
+            var popup_72ace018d06442a8973ce5ff5f42e918 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_58d32bbeafff4221833e54769b06991d = $(`<div id="html_58d32bbeafff4221833e54769b06991d" style="width: 100.0%; height: 100.0%;">Volcán Barva, Costa Rica</div>`)[0];
+                popup_72ace018d06442a8973ce5ff5f42e918.setContent(html_58d32bbeafff4221833e54769b06991d);
+            
+
+            marker_a3d76e3d486a4ca5b07e20011325118e.bindPopup(popup_72ace018d06442a8973ce5ff5f42e918)
+            ;
+
+            
+        
+    
+        marker_a3d76e3d486a4ca5b07e20011325118e.bindTooltip(
+            `<div>`
+            + `Clic para más información` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_354ed13ad8bd494d87101a1947033667 = L.marker(
+            [8.807778, -82.542778],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_6f14e64b5a284af68a34789666a43de3);
+        
+    
+            var popup_ef0f45032d744d768c78f6f4db433856 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_84be76aa23f44d88a533a0afb19d1343 = $(`<div id="html_84be76aa23f44d88a533a0afb19d1343" style="width: 100.0%; height: 100.0%;">Volcán Barú, Panamá</div>`)[0];
+                popup_ef0f45032d744d768c78f6f4db433856.setContent(html_84be76aa23f44d88a533a0afb19d1343);
+            
+
+            marker_354ed13ad8bd494d87101a1947033667.bindPopup(popup_ef0f45032d744d768c78f6f4db433856)
+            ;
+
+            
+        
+    
+        marker_354ed13ad8bd494d87101a1947033667.bindTooltip(
+            `<div>`
+            + `Clic para más información` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_d4424497803b435d88603f1502b1704d = L.marker(
+            [13.733889, -89.293889],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_6f14e64b5a284af68a34789666a43de3);
+        
+    
+            var popup_1de2740f404649c3be03241e0af71ffd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6f6e183e650943b18b81c31392940973 = $(`<div id="html_6f6e183e650943b18b81c31392940973" style="width: 100.0%; height: 100.0%;">Volcán San Salvador, El Salvador</div>`)[0];
+                popup_1de2740f404649c3be03241e0af71ffd.setContent(html_6f6e183e650943b18b81c31392940973);
+            
+
+            marker_d4424497803b435d88603f1502b1704d.bindPopup(popup_1de2740f404649c3be03241e0af71ffd)
+            ;
+
+            
+        
+    
+        marker_d4424497803b435d88603f1502b1704d.bindTooltip(
+            `<div>`
+            + `Clic para más información` + `</div>`,
+            {"sticky": true}
+        );
+        
+</script>
